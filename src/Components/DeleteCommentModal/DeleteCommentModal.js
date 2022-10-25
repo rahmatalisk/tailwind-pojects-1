@@ -16,7 +16,7 @@ const DeleteCommentModal = () => {
                     <div className="delete-account-modal-container">
                         <div className=' sure-info-content '>
                             <h4 className='text-center'>Are You Sure?</h4>
-                            <p className='text-center'> Are you sure you want to delete your account? This action cannot be undone</p>
+                            <p className='text-center'> Are you sure you want to delete this comment? This action cannot be undone.</p>
                         </div>
 
                         <div className=' mx-auto flex justify-center items-center'>
