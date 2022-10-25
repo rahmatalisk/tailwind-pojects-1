@@ -1,0 +1,86 @@
+.delete-account-modal-container {
+    background: #87C56C;
+    padding: 20px 56px;
+}
+
+.delete-account-modal-container h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.sure-info-content {
+    background: #004500;
+    border-radius: 8px;
+    padding: 3px 20px;
+}
+
+.sure-info-content p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.input-content h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.input-content input {
+    padding: 9px 11px;
+    outline: none;
+    border: 0;
+    font-size: 18px;
+    line-height: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.sure-btn .delete-button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF0000;
+    background-color: #004500;
+    border-radius: 8px;
+    padding: 9px 21px;
+}
+.sure-btn .cancel-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFf;
+    background-color: #004500;
+    border-radius: 8px;
+    padding: 9px 40px;
+}
+
+
+
+@media all and (max-width:375px) {
+    .sure-btn{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sure-info-content p{
+        font-size: 12px;
+    }
+    .delete-account-modal-container h4{
+        font-size: 20px;
+    }
+}
