@@ -10,7 +10,7 @@ const CreateMapModal = () => {
             {/* Put this part before </body> tag */}
             <input type="checkbox" id="create-map-modal" className="modal-toggle" />
             <label htmlFor="create-map-modal" className="modal cursor-pointer">
-                <div className="modal-box relative p-0 m-0 w-full h-fit" for="">
+                <div className="modal-box relative p-0 mx-5 w-full h-fit" for="">
                     <div className="create-map-modal-container">
                         <div className="title-content flex items-center">
                             <h4 className='mr-[22px]'>Title</h4>

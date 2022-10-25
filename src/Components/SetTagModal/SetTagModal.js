@@ -9,7 +9,7 @@ const SetTagModal = () => {
             <label for="set-tag-modal" class="btn modal-button mb-3">Set Tag Modal</label>
             <input type="checkbox" id="set-tag-modal" class="modal-toggle" />
             <label for="set-tag-modal" class="modal cursor-pointer">
-                <div class="modal-box relative p-0 m-0 w-full h-fit" for="">
+                <div class="modal-box relative p-0 mx-5 w-full h-fit" for="">
                     <div className="set-tag-modal-container">
                         <div className="set-tag-modal">
                             <h4 className='mb-[20px] text-center'>Tags</h4>

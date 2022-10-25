@@ -12,7 +12,7 @@ const PopUpModal = () => {
             <label for="pop-uo-modal" class="btn modal-button mb-3">PopUpModal</label>
             <input type="checkbox" id="pop-uo-modal" class="modal-toggle" />
             <label for="pop-uo-modal" class="modal cursor-pointer">
-                <div class="modal-box relative p-0 m-0 w-full h-fit" for="">
+                <div class="modal-box relative p-0 mx-5 w-full" for="">
                     <div className='pop-up-modal-container flex justify-center items-center'>
                         <div className='popup-modal '>
                             <div className='status mb-[14px]'>

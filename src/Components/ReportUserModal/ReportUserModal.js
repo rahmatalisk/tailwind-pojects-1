@@ -10,7 +10,7 @@ const ReportUserModal = () => {
             {/* Put this part before </body> tag */}
             <input type="checkbox" id="report-user-modal-open" className="modal-toggle" />
             <label htmlFor="report-user-modal-open" className="modal cursor-pointer">
-                <label className="modal-box relative p-0 m-0 w-full h-fit" for="">
+                <label className="modal-box relative p-0 mx-5 w-full h-fit" for="">
                     <div className="report-user-modal-container">
                         <h4 className='text-center mb-[20px]'>Report “FishLover96”</h4>
                         <div className="report-content">
